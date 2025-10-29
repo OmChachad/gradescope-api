@@ -5,7 +5,7 @@ certifi==2024.12.14
 charset-normalizer==3.4.1
 colorama==0.4.6 ; sys_platform == 'win32'
 exceptiongroup==1.2.2 ; python_full_version < '3.11'
-fastapi==0.115.7
+fastapi
 idna==3.10
 iniconfig==2.0.0
 packaging==24.2
