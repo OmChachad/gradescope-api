@@ -2,14 +2,14 @@ from datetime import datetime
 
 from fastapi import Depends, FastAPI, HTTPException, status
 
-from gradescopeapi._config.config import FileUploadModel, LoginRequestModel
-from gradescopeapi.classes.account import Account
-from gradescopeapi.classes.assignments import Assignment, update_assignment_date
-from gradescopeapi.classes.connection import GSConnection
-from gradescopeapi.classes.courses import Course
-from gradescopeapi.classes.extensions import get_extensions, update_student_extension
-from gradescopeapi.classes.member import Member
-from gradescopeapi.classes.upload import upload_assignment
+from .config import FileUploadModel, LoginRequestModel
+from .classes.account import Account
+from .classes.assignments import Assignment, update_assignment_date
+from .classes.connection import GSConnection
+from .classes.courses import Course
+from .classes.extensions import get_extensions, update_student_extension
+from .classes.member import Member
+from .classes.upload import upload_assignment
 
 app = FastAPI()
 
